@@ -1,0 +1,93 @@
+:root {
+    --primary-color:#212121;
+    --secondary-color:#757575;
+    --accent-color: #2196F3;
+    --primary-font:'Roboto', sans-serif;
+    --normal-font: 400;
+    --medium-font: 500;
+    ---bold-font: 700;
+    --bolder-font: 900;
+    --primary-font-size: 14px;
+    --secondary-font-size: 16px;
+    --tertiary-font-size: 18px;
+}
+body {
+    font-size: var(--primary-font-size);
+}
+.content {
+    width: 1170px;
+    margin: 0 auto;
+}
+.list {
+    list-style: none;
+}
+
+/* header */
+.header {
+    padding: 0;
+    display: flex;
+}
+
+/* logo */
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #2196F3;
+}
+.logo-color {
+    color: #000000;
+}
+/* logo */
+
+.menu {
+    display: flex;
+}
+.menu-list {
+    display: flex;
+}
+.menu-item {
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+    font-weight: var(--medium-font);
+}
+.menu-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.menu-link:hover, .menu-link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+.header-contacts {
+    display: flex;
+}
+.header-mail-phone {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: var(--medium-font);
+    font-size: var(--primary-font-size);
+    color: var(--secondary-color);
+}
+.header-mail-phone:hover, 
+.header-mail-phone:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+    
+
+/* description */
+
+/* peculiarities */
+
+/* case */
+
+/* teams */
+
+/* footer */
+
+/* filter */
+
+/* portfolio */
