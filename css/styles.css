@@ -2,6 +2,8 @@
     --primary-color:#212121;
     --secondary-color:#757575;
     --accent-color: #2196F3;
+    --tertiary-color: #2F303A;
+    --fourth-color: #FFFFFF;
     --primary-font:'Roboto', sans-serif;
     --normal-font: 400;
     --medium-font: 500;
@@ -15,7 +17,7 @@ body {
     font-size: var(--primary-font-size);
     font-family: var(--primary-font);
     letter-spacing: 0.06em;
-    background-color : #FFFFFF;
+    background-color : var(--fourth-color);
     color: var(--primary-color);
 }
 .content {
@@ -38,7 +40,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo-color {
     color: #000000;
@@ -65,6 +67,11 @@ body {
 .menu-link:hover, .menu-link:focus {
     color: var(--accent-color);
     cursor: pointer;
+}
+.menu-link-studio {
+    font-weight: var(--medium-font);
+    text-decoration: none;
+    color: var(--accent-color);
 }
 .menu-link-portfolio {
     font-weight: var(--medium-font);
@@ -100,7 +107,7 @@ body {
 .description {
     width: 1600px;
     margin-left: -215px;
-    background-color: #2F303A;
+    background-color: var(--tertiary-color);
 }
 .description-item {
     display: flex;
@@ -111,7 +118,7 @@ body {
 }
 .description-header {
     text-align: center;
-    color: #FFFFFF;
+    color: var(--fourth-color);
     text-transform: uppercase;
     font-weight: var(--bolder-font);
     font-size: 44px;
@@ -131,7 +138,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: var(--fourth-color);
     cursor: pointer;
 }
 /* peculiarities */
@@ -165,6 +172,7 @@ body {
 }
 .peculiarities-post-header {
     font-weight: var(--bold-font);
+    font-size: var(--primary-font-size);
     line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -218,7 +226,7 @@ body {
     padding-bottom: 94px;
 }
 .teams-post {
-    background: #FFFFFF;
+    background: var(--fourth-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -239,7 +247,7 @@ body {
 }
 /* footer */
 .footer {
-    background: #2F303A;
+    background: var(--tertiary-color);
     width: 1600px;
     /* padding-left: 215px; */
 }
@@ -251,7 +259,7 @@ body {
     padding-top: 60px;
 }
 .footer-logo-color {
-    color: #FFFFFF;
+    color: var(--fourth-color);
 }
 .footer-address {
     padding-top: 20px;
@@ -269,7 +277,7 @@ body {
     line-height: 1.71;
     text-decoration: none;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--fourth-color);
 }
 .footer-number,
 .footer-mail {
@@ -282,10 +290,8 @@ body {
 }
 .footer-number:hover,
 .footer-mail:hover,
-.footer-map:hover,
 .footer-number:focus,
-.footer-mail:focus,
-.footer-map:focus {
+.footer-mail:focus {
     color: var(--accent-color);
 }
 .footer-mail {
@@ -321,7 +327,7 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-color);
     background: #F5F4FA;
     border:none;
     border-radius: 4px;
@@ -329,15 +335,15 @@ body {
     }
 .filter-button:hover, 
 .filter-button:focus {
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--fourth-color);
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     cursor: pointer;
 }
 .filter-button-color {
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--fourth-color);
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     cursor: pointer;
@@ -382,8 +388,8 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    color: #212121;
+    line-height: 2;
+    color: var(--primary-color);
 }
 .portfolio-text {
     margin: 0;
@@ -391,7 +397,7 @@ body {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-color);
 }
