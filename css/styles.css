@@ -60,6 +60,7 @@ body {
 .menu-link {
     font-weight: var(--medium-font);
     text-decoration: none;
+    color: inherit;
 }
 .menu-link:hover, .menu-link:focus {
     color: var(--accent-color);
